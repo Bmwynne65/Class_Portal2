@@ -1,0 +1,103 @@
+body {
+    background: yellow;
+}
+
+
+/* Css reset */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    padding: .2em 0;
+}
+
+p {
+    margin: 1.8em 0;
+    line-height: 1.8em;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+    padding: 1.5em;
+    border: 1px black solid;
+}
+
+header, 
+footer {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgb(175, 222, 176);
+    display: grid;
+    width: 100vw;
+    height: 100vw;
+    grid-template-columns: 
+    1fr        2fr      1fr;
+    grid-template-areas: 
+    "heady      heady       heady"
+    "navvy      navvy       navvy"
+    "aside1     mainy       aside2"
+    "aside1     mainy       aside2"
+    "aside1     mainy       aside2"
+    "footy      footy       footy";
+}
+
+header {grid-area: heady; background: red;}
+nav {grid-area: navvy; background: goldenrod;}
+main {grid-area: mainy; background: orange; max-height: 100%;}
+#aside1 {grid-area: aside1; background: fuchsia;}
+#aside2 {grid-area: aside2; background: violet;}
+footer {grid-area: footy; background: lawngreen;}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+nav ul li {
+    list-style: none;
+}
+
+/* Tablet like */
+@media screen 
+    and (min-width: 641px)
+    and (max-width: 900px)  {
+    .container {
+        grid-template-columns: 
+        1fr         1fr;
+        grid-template-areas: 
+        "heady  heady"
+        "navvy  navvy"
+        "mainy  mainy"
+        "aside1 aside2"
+        "footy  footy";
+    }
+}
+/* small mobile */
+@media screen 
+     and (max-width: 640px) {
+    .container {
+        grid-template-columns: 
+        1fr;
+        grid-template-areas:
+        "heady"
+        "navvy"
+        "mainy"
+        "aside1"
+        "aside2"
+        "footy";
+    }
+     }
