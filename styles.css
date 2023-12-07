@@ -255,7 +255,7 @@ header {grid-area: heady; background: rgb(255, 255, 255);}
 nav {grid-area: navvy; background: rgb(0, 0, 0);}
 main {grid-area: mainy; background: rgb(255, 255, 255); max-height: 100%;}
 #aside1 {grid-area: aside1; background: rgb(255, 255, 255);}
-#aside2 {grid-area: aside2; background: rgb(0, 0, 0);}
+#aside2 {grid-area: aside2; background: rgb(255, 255, 255);}
 footer {grid-area: footy; background: rgb(255, 255, 255);}
 
 nav ul {
