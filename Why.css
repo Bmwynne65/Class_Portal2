@@ -53,6 +53,7 @@ body {
     font-size: 20px; /* Adjust the font size as needed */
     color: #333; /* Text color */
     line-height: 1.5;
+    /* text-align: center; */
 }
 
 h1 {
@@ -207,6 +208,9 @@ body.hidden {
     padding: 20px;
 }
 
+.center {
+    text-align: center;
+}
 
 /* details */
 details {

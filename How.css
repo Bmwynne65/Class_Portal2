@@ -53,6 +53,7 @@ body {
     font-size: 20px; /* Adjust the font size as needed */
     color: #333; /* Text color */
     line-height: 1.5;
+    /* text-align: center; */
 }
 
 h1 {
@@ -208,7 +209,15 @@ body.hidden {
 }
 
 /* Videos/iframe */
-
+img {
+    text-align: center;
+}
+iframe {
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
 /* details */
 details {
     margin: 1em 0;
