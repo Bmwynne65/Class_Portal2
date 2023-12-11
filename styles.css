@@ -213,12 +213,12 @@ p {
     margin: 1.8em 0;
     line-height: 1.8em;
 }
-/* header
+header
 nav,
 main,
 aside {
-    padding: 1.5em;
-} */
+    padding: 2em;
+}
 
 header, 
 footer {
