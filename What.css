@@ -299,7 +299,7 @@ footer {
     "navvy      navvy       navvy"
     "mainy      mainy       aside1"
     "mainy      mainy       aside1"
-    "mainy      mainy       aside1"
+    "aside2      aside2     aside3"
     "footy      footy       footy";
 }
 
@@ -308,6 +308,7 @@ nav {grid-area: navvy; background: rgb(0, 0, 0);}
 main {grid-area: mainy; background: rgb(255, 255, 255); max-height: 100%;}
 #aside1 {grid-area: aside1; background: rgb(255, 255, 255);}
 #aside2 {grid-area: aside2; background: rgb(255, 255, 255);}
+#aside2 {grid-area: aside3; background: rgb(255, 255, 255);}
 footer {grid-area: footy; background: rgb(255, 255, 255);}
 
 nav ul {
@@ -332,6 +333,8 @@ nav ul li {
         "navvy  navvy"
         "mainy  mainy"
         "aside1 aside1"
+        "aside2" "aside2"
+        "aside3" "aside3"
         "footy  footy";
     }
     
@@ -389,8 +392,9 @@ nav ul li {
         "heady"
         "navvy"
         "mainy"
-        "mainy"
-        "mainy"
+        "aside1"
+        "aside2"
+        "aside3"
         "footy";
     }
     .navbar {
