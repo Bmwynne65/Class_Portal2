@@ -246,9 +246,9 @@ footer {
     grid-template-areas: 
     "heady      heady       heady"
     "navvy      navvy       navvy"
-    "mainy      mainy       mainy"
-    "mainy      mainy       mainy"
-    "mainy      mainy       mainy"
+    "aside1     mainy       aside2"
+    "aside1     mainy       aside2"
+    "aside1     mainy       aside2"
     "footy      footy       footy";
 }
 

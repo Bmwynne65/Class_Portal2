@@ -19,8 +19,11 @@
 }
 
 .navbar a:hover {
-    background-color: #555; /* Touch-friendly hover state */
+    /* background-color: #555;  */
+    color: rgba(173, 2, 2, 0.842);
 }
+
+
 
 .navbarH {
     background-color: rgb(255, 255, 255);
